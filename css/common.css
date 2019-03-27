@@ -1,0 +1,28 @@
+@charset "utf-8";
+body,dl,dd,ol,ul,h1,h2,h3,h4,h5,h6,p,form,input{
+	padding:0;
+	margin:0;
+}
+body{
+	overflow-x:hidden;
+	min-width:1200px;
+	font:12px/1.5 "PingFang SC","Times New Roman","Microsoft YaHei","\5FAE\8F6F\96C5\9ED1",STXihei,"\534E\6587\7EC6\9ED1",serif;
+}
+a{
+	text-decoration: none;
+	color:#666;
+}
+ol,ul{
+	list-style:none;
+}
+.clearfix:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+.w-m{
+	width: 1190px;
+	margin: 0 auto;
+
+}
+

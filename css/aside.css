@@ -1,0 +1,98 @@
+@charset "utf-8";
+#aside{
+	position: fixed;
+	top:0;
+	right:0;
+	width: 30px;
+	height: 100%;
+	background-color: #202020;
+}
+.aside-nav{
+	
+	padding-top:90px;
+
+}
+.aside-nav li{
+	width: 22px;
+	padding:4px 4px 0;
+	text-align: center;
+	line-height: 15px;
+}
+.aside-nav li a{
+	display: block;
+	height: 87px;
+	color:#fff;
+	border-bottom:1px solid #999;
+}
+.aside-nav li i{
+	display: block;
+	width: 22px;
+	height: 30px;	
+}
+.aside-nav .car i{
+	background: url('../images/icon/icon.png') no-repeat -271px -128px;
+}
+.aside-nav .coupon i{
+	background: url('../images/icon/icon.png') no-repeat -271px -158px;
+}
+.aside-nav li:not(.s-code):hover{
+	margin-top:-1px;
+	padding-top:5px;
+	background-color: red;
+}
+.aside-nav li:not(.s-code):hover a{
+	border-bottom-color:transparent;
+}
+.aside-nav .wallet i{
+	background: url('../images/icon/icon.png') no-repeat -271px -220px;
+}
+.aside-nav .footprint i{
+	background: url('../images/icon/icon.png') no-repeat -271px -190px;
+}
+.aside-nav .wallet a{
+	height: 72px;
+}
+.aside-nav .footprint a{
+	height: 72px;
+}
+.aside-nav .s-code a{
+	position: relative;
+	height: 35px;
+}
+.aside-nav .s-code i{
+	background: url('../images/icon/category.png') no-repeat center;
+}
+.aside-nav .s-code img{
+	display: none;
+	position: absolute;
+	top:-17px;
+	right:20px;
+	width: 181px;
+	height: 200px;
+}
+.aside-nav .s-code:hover img{
+	display: block;
+}
+.aside-nav .return-top{
+	position: absolute;
+	bottom: 20px;
+	left: 0;
+}
+.aside-nav .return-top{
+	padding:0 4px;
+}
+.aside-nav .return-top a{
+	display: block;
+	width: 22px;
+	height: 35px;
+	background: url('../images/icon/icon.png') no-repeat -271px -277px;
+	border-top:1px solid #ddd;
+}
+.aside-nav .return-top:hover{
+	margin-top:-1px ;
+	padding-top:1px ;
+	background-color: red;
+}
+.aside-nav .return-top:hover a{
+	border-top-color:transparent;
+}
